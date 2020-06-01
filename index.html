@@ -59,7 +59,8 @@
 					<ul class="main-navigation">
 						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
 						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
-						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>					
+						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
+                  <li><a class="smoothscroll"  href="#portfolio" title="">Projects</a></li>			
 						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>			
 					</ul>
 				</nav>    		
@@ -118,7 +119,7 @@
 
    				<img src="images/profile-pic.png" alt="Profile Picture">
 
-   				<p class="lead">Hi. I am a final year undergraduate in the department of Mechanical Engineering at IIT Kanpur.</p>
+   				<p class="lead">Hi. I am a final year undergraduate in the department of Mechanical Engineering at IIT Kanpur. I soon will be joining the Goldman Sachs firm as a full-time Analyst.</p>
    			</div>   			
 
    		</div>   		
@@ -179,7 +180,7 @@
    	<div class="row button-section">
    		<div class="col-twelve">
    			<!-- <a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a> -->
-   			<a href="CV/Resume.pdf" target="_blank" title="Download CV" class="button button-primary">My Resume</a>
+   			<a href="CV/Resume.pdf" target="_blank" title="My Resume" class="button button-primary">My Resume</a>
    		</div>   		
    	</div>
 
@@ -291,102 +292,225 @@
    		
    	</div> <!-- /resume-timeline -->
    	
-   	<div class="row resume-timeline">
-
-   		<div class="col-twelve resume-header">
-
-   			<h2>Projects</h2>
-
-   		</div> <!-- /resume-header -->
-
-   		<div class="col-twelve">
-
-   			<div class="timeline-wrap">
-
-   				<div class="timeline-block">
-
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-briefcase"></i>
-	   				</div>
-
-	   				<div class="timeline-header">
-	   					<h3>Database Management Systems</h3>
-	   					<p>Jan 2019 - April 2019</p>
-	   				</div>
-
-	   				<div class="timeline-content">
-	   					<h4>Banking Management Database System</h4>
-	   					<p>
-	   						<ul>
-    							<li>Designed a Banking Management Platform in MEAN-Stack, using AngularJS for
-									frontend, Node.js with Express.js framework for backend and MongoDB database.</li>
-								<li>Implemented Authentication and Role-based access control with separate
-									dashboards for the account-holders and the bank employees. </li>	
-								<li>Added functionalities for managing transactions and different types of accounts separately.</li>
-							</ul>
-	   					</p>
-	   				</div>
-
-	   			</div> <!-- /timeline-block -->
-
-	   			<div class="timeline-block">
-
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-briefcase"></i>
-	   				</div>
-
-	   				<div class="timeline-header">
-	   					<h3>Machine Learning</h3>
-	   					<p>July 2019 - Nov 2019</p>
-	   				</div>
-
-	   				<div class="timeline-content">
-	   					<h4>Captcha Breaking</h4>
-	   					<p>
-	   						<ul>
-    							<li>Used OpenCV tools and functions for preprocessing captchas using pixel manipulation to filter out text from noisy background.</li>
-								<li>Built a character classifier using a CNN based network for individual identification of letters.</li>	
-							</ul>
-	   					</p>
-	   				</div>
-
-	   			</div> <!-- /timeline-block -->
-
-	   			<div class="timeline-block">
-
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-briefcase"></i>
-	   				</div>
-
-	   				<div class="timeline-header">
-	   					<h3>Programming Club</h3>
-	   					<p>May 2017 - July 2017</p>
-	   				</div>
-
-	   				<div class="timeline-content">
-	   					<h4>Artificial Intelligence Game</h4>
-	   					<p>
-	   						<ul>
-    							<li>Developed a Battleship game with the human input playing against AI.</li>
-								<li>Designed the AI algorithm using probabilities and programmed the interactive code in python with visual graphics using pygame.</li>	
-							</ul>
-	   					</p>
-	   				</div>
-
-	   			</div> <!-- /timeline-block -->
-
-   			</div> <!-- /timeline-wrap -->   			
-
-   		</div> <!-- /col-twelve -->
-   		
-   	</div> <!-- /resume-timeline -->
 		
 	</section> <!-- /features -->
 
 
-
-	<!-- stats Section
+   <!-- Portfolio Section
    ================================================== -->
+
+   <section id="portfolio">
+
+      <div class="row section-intro">
+         <div class="col-twelve">
+
+            <h5>Projects</h5>
+            <h1>Check Out Some of My Works.</h1>
+
+            <p class="lead">Click to see the details.</p>
+
+         </div>         
+      </div> <!-- /section-intro--> 
+
+      <div class="row portfolio-content">
+
+         <div class="col-twelve">
+
+            <!-- portfolio-wrapper -->
+            <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+
+               <div class="bgrid folio-item">
+                  <div class="item-wrap">
+                     <img src="images/portfolio/banking-b.jpg" alt="banking">
+                     <a href="#modal-01" class="overlay">                                   
+                        <div class="folio-item-table">
+                           <div class="folio-item-cell">
+                               <h3 class="folio-title">Banking Management Database System</h3>
+                               <span class="folio-types">
+                                   Web Development
+                               </span>
+                           </div>                           
+                        </div>                    
+                     </a>
+                  </div>                  
+               </div> <!-- /folio-item -->
+
+               <div class="bgrid folio-item">
+                  <div class="item-wrap">
+                     <img src="images/portfolio/captcha-b.jpg" alt="captcha">
+                     <a href="#modal-02" class="overlay">                                    
+                        <div class="folio-item-table">
+                           <div class="folio-item-cell">
+                              <h3 class="folio-title">Captcha Breaking</h3>                         
+                              <span class="folio-types">
+                                   Machine Learning
+                              </span>              
+                           </div>                           
+                        </div>                    
+                     </a>
+                  </div>
+               </div> <!-- /folio-item -->
+
+               <div class="bgrid folio-item">
+                  <div class="item-wrap">
+                     <img src="images/portfolio/battleship.jpg"alt="battleship">
+                     <a href="#modal-03" class="overlay">                                    
+                        <div class="folio-item-table">
+                           <div class="folio-item-cell">
+                              <h3 class="folio-title">Artifical Intelligence Game</h3>                       
+                              <span class="folio-types">
+                                   Programming Club
+                              </span>              
+                           </div>                           
+                        </div>                    
+                     </a>
+                  </div>
+               </div> <!-- /folio-item -->
+
+               <div class="bgrid folio-item">
+                  <div class="item-wrap">
+                     <img src="images/portfolio/trigger2-b.jpg" alt="trigger">
+                     <a href="#modal-04" class="overlay">                                      
+                        <div class="folio-item-table">
+                           <div class="folio-item-cell">
+                              <h3 class="folio-title">Trigger Word Detection</h3>                       
+                              <span class="folio-types">
+                                   Sequence Models
+                              </span>              
+                           </div>                           
+                        </div>                    
+                     </a>
+                  </div>
+               </div> <!-- /folio-item -->     
+
+               <div class="bgrid folio-item">
+                  <div class="item-wrap">
+                     <img src="images/portfolio/object-b.jpg" alt="object">
+                     <a href="#modal-05" class="overlay">                                    
+                        <div class="folio-item-table">
+                           <div class="folio-item-cell">
+                              <h3 class="folio-title">Object Detection for Autonomous Driving</h3>                         
+                              <span class="folio-types">
+                                   Convolutional Neural Networks
+                              </span>              
+                           </div>                           
+                        </div>                    
+                     </a>
+                  </div>
+               </div> <!-- /folio-item -->
+
+               <!-- modal popups - begin
+               ============================================================= -->
+               <div id="modal-01" class="popup-modal slider mfp-hide">  
+
+                  <div class="media">
+                     <img src="images/portfolio/modals/m-banking.jpg" alt="" />
+                  </div>         
+
+                  <div class="description-box">
+                     <h4>Banking Management Database System</h4>           
+                     <p>Designed a Banking Management Platform in MEAN-Stack with Authentication, Role-based access control and functionalities for managing transactions and different types of accounts</p>
+
+                     <div class="categories">Database Management System</div>                        
+                  </div>
+
+                  <div class="link-box">
+                     <a href="CV/Resume.pdf" target="_blank">Details</a>
+                     <a href="#" class="popup-modal-dismiss">Close</a>
+                  </div>            
+
+               </div> <!-- /modal-01 -->
+
+               <div id="modal-02" class="popup-modal slider mfp-hide">  
+
+                  <div class="media">
+                     <img src="images/portfolio/modals/m-captcha.jpg" alt="" />
+                  </div>         
+
+                  <div class="description-box">
+                     <h4>Captcha Breaking</h4>           
+                     <p>Used OpenCV tools and functions for preprocessing captchas using pixel manipulation and built a character classifier using a CNN for individual identification of letters.</p>
+
+                     <div class="categories">Machine Learning</div>                       
+                  </div>
+
+                  <div class="link-box">
+                     <a href="CV/Resume.pdf" target="_blank">Details</a>
+                     <a href="#" class="popup-modal-dismiss">Close</a>
+                  </div>            
+
+               </div> <!-- /modal-02 -->
+
+               <div id="modal-03" class="popup-modal slider mfp-hide">  
+
+                  <div class="media">
+                     <img src="images/portfolio/modals/m-battleship.jpg" alt="" />
+                  </div>         
+
+                  <div class="description-box">
+                     <h4>Artifical Intelligence Game</h4>            
+                     <p>Developed a Battleship game with the human input playing against AI in python with visual graphics using pygame.</p>
+
+                     <div class="categories">Programming Club</div>                       
+                  </div>
+
+                  <div class="link-box">
+                     <a href="CV/Resume.pdf" target="_blank">Details</a>
+                     <a href="#" class="popup-modal-dismiss">Close</a>
+                  </div>            
+
+               </div> <!-- /modal-03 -->
+
+               <div id="modal-04" class="popup-modal slider mfp-hide">  
+
+                  <div class="media">
+                     <img src="images/portfolio/modals/m-trigger2.jpg" alt="" />
+                  </div>         
+
+                  <div class="description-box">
+                     <h4>Trigger Word Detection</h4>            
+                     <p>Built a Trigger Word Detection model by training a GRU in Keras on synthesized training data making a &ldquo;chiming&rdquo; sound whenever the word &ldquo;Activate&rdquo; is heard.</p>
+
+                     <div class="categories">Sequence Models</div>                      
+                  </div>
+
+                  <div class="link-box">
+                     <a href="CV/Resume.pdf" target="_blank">Details</a>
+                     <a href="#" class="popup-modal-dismiss">Close</a>
+                  </div>            
+
+               </div> <!-- /modal-04 -->
+
+               <div id="modal-05" class="popup-modal slider mfp-hide">  
+
+                  <div class="media">
+                     <img src="images/portfolio/modals/m-object.jpg" alt="" />
+                  </div>         
+
+                  <div class="description-box">
+                     <h4>Object Detection for Autonomous Driving</h4>           
+                     <p>Built an Object Detection model to identify 80 different classes using YOLO algorithm.</p>
+
+                     <div class="categories">Convolutional Neural Networks</div>                        
+                  </div>
+
+                  <div class="link-box">
+                     <a href="CV/Resume.pdf" target="_blank">Details</a>
+                     <a href="#" class="popup-modal-dismiss">Close</a>
+                  </div>            
+
+               </div> <!-- /modal-05 -->
+
+               <!-- modal popups - end
+               ============================================================= -->
+
+            </div> <!-- /portfolio-wrapper --> 
+
+         </div>  <!-- /twelve -->   
+
+      </div> <!-- /portfolio-content --> 
+      
+   </section> <!-- /portfolio --> 
 
 	
    <!-- contact
